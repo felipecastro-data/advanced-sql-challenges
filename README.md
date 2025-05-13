@@ -39,6 +39,16 @@ advanced-sql-challenges/
 
 ---
 
+## ✨ Key Features
+
+- Business-oriented query challenges
+- Realistic dataset simulations (CSV format)
+- Focus on performance and readability
+- Great for interview prep or upskilling
+- Easy to plug into a database (PostgreSQL, MySQL, etc.)
+
+---
+
 ## 📊 Example Scenarios
 
 > These queries are written and tested against mock retail data.
