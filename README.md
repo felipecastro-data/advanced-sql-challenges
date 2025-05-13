@@ -69,3 +69,16 @@ Analytics Engineer @ EPAM Systems
 
 📜 [PL-300: Power BI Data Analyst](https://learn.microsoft.com/api/credentials/share/en-us/FelipeCastro-8026/F853AABE365874B3?sharingId=13D660F56C1DFFA3)  
 📜 [DP-600: Fabric Analytics Engineer](https://learn.microsoft.com/api/credentials/share/en-us/FelipeCastro-8026/6C5A2F5A8A5864FC?sharingId=13D660F56C1DFFA3)
+
+---
+
+## 🧪 How to Run
+
+1. Clone the repo  
+2. Open the SQL files in your favorite IDE or DB client  
+3. Load `data/*.csv` files into your DB  
+4. Run the scripts in order:
+   - `01_create_star_schema.sql`
+   - `02_insert_mock_data.sql`
+   - `03_kpi_queries.sql`
+
