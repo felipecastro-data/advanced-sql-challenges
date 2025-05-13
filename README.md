@@ -89,8 +89,33 @@ You can run these queries in any SQL engine, or directly from a lightweight engi
 ### Option 1: DuckDB (recommended)
 1. Install DuckDB: https://duckdb.org/docs/installation/
 2. Launch interactive mode:  
-   ```bash
-   duckdb
+
+```
+bash
+duckdb
+```
+
+3. Load CSVs and run a query:
+```
+CREATE TABLE orders AS SELECT * FROM 'datasets/orders.csv' (AUTO_DETECT TRUE);
+SELECT * FROM orders LIMIT 5;
+
+```
+
+### Option 2: SQLite (if preferred)
+1. Install SQLite: https://sqlite.org/download.html
+2. Convert CSVs to tables using .import or via DB browser.
+
+---
+
+### ✅ Next Step:
+If you’re good with this addition, next we'll move on to:
+
+- **Step 2**: Add inline comments to each `.sql` file explaining the logic.
+- **Step 3**: (Optional) Create a bonus notebook: `run_queries_duckdb.ipynb` to execute and preview results in one place.
+
+Shall we add this `README` update first? Let me know and I’ll format it for a quick copy-paste into your file.
+
 
 ---
 
