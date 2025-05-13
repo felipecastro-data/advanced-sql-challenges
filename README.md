@@ -23,17 +23,18 @@ Companies rely on advanced SQL to uncover operational inefficiencies, customer t
 
 ```
 advanced-sql-challenges/
-├── data/
-│ ├── dim_customer.csv
-│ ├── dim_date.csv
-│ ├── dim_product.csv
-│ ├── dim_store.csv
-│ └── fact_sales.csv
-├── sql/
-│ ├── 01_create_star_schema.sql
-│ ├── 02_insert_mock_data.sql
-│ └── 03_kpi_queries.sql
-├── images/ # Query results and schema design screenshots
+├── datasets/
+│ ├── customers.csv
+│ ├── orders.csv
+│ └── products.csv
+├── solutions/
+│ ├── challenge_01_top_customers.sql
+│ ├── challenge_02_monthly_growth.sql
+│ ├── ...
+│ └── challenge_10_rfm_analysis.sql
+├── images/
+│ ├── challenge_example_1.png
+│ └── challenge_example_2.png
 └── README.md
 ```
 
