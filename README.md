@@ -63,6 +63,37 @@ advanced-sql-challenges/
 
 ---
 
+## 🧪 Challenge Index
+
+Each challenge focuses on a common business question using SQL over a star schema:
+
+| # | Challenge | Description |
+|--:|-----------|-------------|
+| 01 | [Top Customers](./solutions/challenge_01_top_customers.sql) | Find top 5 customers by revenue |
+| 02 | [Monthly Growth](./solutions/challenge_02_monthly_growth.sql) | Calculate MoM revenue growth |
+| 03 | [Best-Selling Products](./solutions/challenge_03_best_selling_products.sql) | Products ranked by revenue |
+| 04 | [Region Sales Share](./solutions/challenge_04_region_sales_share.sql) | Revenue share by region |
+| 05 | [Repeat vs New Customers](./solutions/challenge_05_repeat_vs_new_customers.sql) | Repeat customer analysis |
+| 06 | [Product Popularity Index](./solutions/challenge_06_product_popularity_index.sql) | Orders per customer-product pair |
+| 07 | [Customer LTV](./solutions/challenge_07_customer_ltv.sql) | Estimate customer lifetime value |
+| 08 | [Order Frequency by Region](./solutions/challenge_08_order_frequency_by_region.sql) | Avg. orders per customer by region |
+| 09 | [Top Months by Volume](./solutions/challenge_09_top_months_by_volume.sql) | Highest order count by month |
+| 10 | [RFM Analysis](./solutions/challenge_10_rfm_analysis.sql) | Recency, Frequency, Monetary profile |
+
+---
+
+## 🏃 How to Run Locally
+
+You can run these queries in any SQL engine, or directly from a lightweight engine like **SQLite** or **DuckDB**.
+
+### Option 1: DuckDB (recommended)
+1. Install DuckDB: https://duckdb.org/docs/installation/
+2. Launch interactive mode:  
+   ```bash
+   duckdb
+
+---
+
 ## 🏅 Author & Certifications
 
 **Felipe Castro**  
