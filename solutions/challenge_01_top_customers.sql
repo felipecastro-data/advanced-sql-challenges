@@ -1,5 +1,6 @@
 -- Challenge 01: Top Customers by Revenue
-
+-- Selects top 5 customers based on total revenue
+-- Aggregates order count and revenue by customer
 SELECT
     customer_id,
     COUNT(order_id) AS total_orders,

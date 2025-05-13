@@ -1,4 +1,6 @@
 -- Challenge 09: Top Months by Volume
+-- Ranks months by number of orders
+-- Identifies peak order volume months
 SELECT
     DATE_TRUNC('month', order_date) AS month,
     COUNT(order_id) AS total_orders,

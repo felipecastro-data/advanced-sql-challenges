@@ -1,4 +1,6 @@
 -- Challenge 05: Repeat vs New Customers
+-- Differentiates new vs repeat customers
+-- Uses order count per customer to classify
 WITH customer_orders AS (
     SELECT
         customer_id,

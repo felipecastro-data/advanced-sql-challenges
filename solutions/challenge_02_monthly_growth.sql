@@ -1,5 +1,6 @@
 -- Challenge 02: Monthly Revenue and MoM Growth
-
+-- Calculates monthly revenue from orders
+-- Computes MoM (Month-over-Month) growth using LAG window function
 WITH monthly_revenue AS (
     SELECT
         DATE_TRUNC('month', order_date) AS month,

@@ -1,4 +1,6 @@
 -- Challenge 04: Region Sales Share
+-- Calculates revenue share by region
+-- Compares regional performance as a percentage of total
 SELECT
     c.region,
     ROUND(SUM(o.order_amount), 2) AS total_revenue,

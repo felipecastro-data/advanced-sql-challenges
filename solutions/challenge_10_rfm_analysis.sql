@@ -1,4 +1,6 @@
 -- Challenge 10: RFM Analysis
+-- Performs RFM (Recency, Frequency, Monetary) segmentation
+-- Ranks customers based on purchase behavior
 WITH rfm AS (
     SELECT
         customer_id,

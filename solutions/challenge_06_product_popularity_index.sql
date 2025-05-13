@@ -1,4 +1,6 @@
 -- Challenge 06: Product Popularity Index
+-- Popularity index = total orders / distinct customers
+-- Highlights most demanded products
 SELECT
     p.product_id,
     p.product_name,

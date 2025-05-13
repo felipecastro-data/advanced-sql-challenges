@@ -1,4 +1,6 @@
 -- Challenge 08: Order Frequency by Region
+-- Calculates average order frequency per region
+-- Combines orders with customer data
 SELECT
     c.region,
     COUNT(o.order_id) AS total_orders,

@@ -1,4 +1,6 @@
 -- Challenge 07: Customer Lifetime Value (CLTV)
+-- Estimates customer lifetime value
+-- Calculates average order value and frequency
 SELECT
     c.customer_id,
     c.customer_name,

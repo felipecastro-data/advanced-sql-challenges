@@ -1,5 +1,6 @@
 -- Challenge 03: Best-Selling Products
-
+-- Finds best-selling products by revenue
+-- Joins orders with product names and aggregates
 SELECT
     p.product_id,
     p.product_name,
