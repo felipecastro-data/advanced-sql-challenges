@@ -82,40 +82,50 @@ Each challenge focuses on a common business question using SQL over a star schem
 
 ---
 
-## 🏃 How to Run Locally
+## 🏃‍♂️ How to Run Locally
 
 You can run these queries in any SQL engine, or directly from a lightweight engine like **SQLite** or **DuckDB**.
 
-### Option 1: DuckDB (recommended)
-1. Install DuckDB: https://duckdb.org/docs/installation/
-2. Launch interactive mode:  
+---
 
-```
-bash
-duckdb
-```
+### 🦆 Option 1: DuckDB (recommended)
 
-3. Load CSVs and run a query:
-```
-CREATE TABLE orders AS SELECT * FROM 'datasets/orders.csv' (AUTO_DETECT TRUE);
-SELECT * FROM orders LIMIT 5;
+1. **Install DuckDB**  
+   👉 https://duckdb.org/docs/installation
 
-```
+2. **Launch interactive mode**
+   ```bash
+   duckdb
+   ```
 
-### Option 2: SQLite (if preferred)
-1. Install SQLite: https://sqlite.org/download.html
-2. Convert CSVs to tables using .import or via DB browser.
+3. **Load CSVs and run a query**
+   ```sql
+   CREATE TABLE orders AS 
+   SELECT * FROM 'datasets/orders.csv' (AUTO_DETECT TRUE);
+
+   SELECT * FROM orders LIMIT 5;
+   ```
+
+> 🧠 DuckDB supports CSVs directly and includes analytical functions like `LAG()` and `DATE_TRUNC()` used in this project.
+
+---
+
+### 🗂 Option 2: SQLite (if preferred)
+
+1. **Install SQLite**  
+   👉 https://sqlite.org/download.html
+
+2. **Convert CSVs to tables**  
+   Use `.import` command or open files with any SQL editor like DB Browser for SQLite.
 
 ---
 
 ### ✅ Next Step:
-If you’re good with this addition, next we'll move on to:
 
-- **Step 2**: Add inline comments to each `.sql` file explaining the logic.
-- **Step 3**: (Optional) Create a bonus notebook: `run_queries_duckdb.ipynb` to execute and preview results in one place.
+If you're good with this addition, next we'll move on to:
 
-Shall we add this `README` update first? Let me know and I’ll format it for a quick copy-paste into your file.
-
+- **Step 2**: Add inline comments to each `.sql` file explaining the logic.  
+- **Step 3** *(optional)*: Create a bonus notebook: `run_queries_duckdb.ipynb` to preview results locally in one place.
 
 ---
 
