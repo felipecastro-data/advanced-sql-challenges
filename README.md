@@ -32,9 +32,6 @@ advanced-sql-challenges/
 │ ├── challenge_02_monthly_growth.sql
 │ ├── ...
 │ └── challenge_10_rfm_analysis.sql
-├── images/
-│ ├── challenge_example_1.png
-│ └── challenge_example_2.png
 └── README.md
 ```
 
