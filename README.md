@@ -117,15 +117,6 @@ You can run these queries in any SQL engine, or directly from a lightweight engi
 
 ---
 
-### ✅ Next Step:
-
-If you're good with this addition, next we'll move on to:
-
-- **Step 2**: Add inline comments to each `.sql` file explaining the logic.  
-- **Step 3** *(optional)*: Create a bonus notebook: `run_queries_duckdb.ipynb` to preview results locally in one place.
-
----
-
 ## 🏅 Author & Certifications
 
 **Felipe Castro**  
