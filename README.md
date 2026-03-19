@@ -52,11 +52,11 @@ advanced-sql-challenges/
 
 > These queries are written and tested against mock retail data.
 
-- **Top 3 Products by Revenue**  
-- **Sales by Region**  
-- **Weekend vs Weekday Revenue Analysis**  
-- **Monthly Sales Trend**  
-- **Profit Margin by Store** *(requires cost data)*  
+- **Top 3 Products by Revenue**
+- **Sales by Region**
+- **Weekend vs Weekday Revenue Analysis**
+- **Monthly Sales Trend**
+- **Profit Margin by Store** *(requires cost data)*
 - **Customer Lifetime Value (CLTV)** *(extendable)*
 
 ---
@@ -88,21 +88,16 @@ You can run these queries in any SQL engine, or directly from a lightweight engi
 
 ### 🦆 Option 1: DuckDB (recommended)
 
-1. **Install DuckDB**  
-   👉 https://duckdb.org/docs/installation
-
+1. **Install DuckDB** 👉 https://duckdb.org/docs/installation
 2. **Launch interactive mode**
-   ```bash
-   duckdb
-   ```
-
+```bash
+duckdb
+```
 3. **Load CSVs and run a query**
-   ```sql
-   CREATE TABLE orders AS 
-   SELECT * FROM 'datasets/orders.csv' (AUTO_DETECT TRUE);
-
-   SELECT * FROM orders LIMIT 5;
-   ```
+```sql
+CREATE TABLE orders AS SELECT * FROM 'datasets/orders.csv' (AUTO_DETECT TRUE);
+SELECT * FROM orders LIMIT 5;
+```
 
 > 🧠 DuckDB supports CSVs directly and includes analytical functions like `LAG()` and `DATE_TRUNC()` used in this project.
 
@@ -110,21 +105,29 @@ You can run these queries in any SQL engine, or directly from a lightweight engi
 
 ### 🗂 Option 2: SQLite (if preferred)
 
-1. **Install SQLite**  
-   👉 https://sqlite.org/download.html
-
-2. **Convert CSVs to tables**  
-   Use `.import` command or open files with any SQL editor like DB Browser for SQLite.
+1. **Install SQLite** 👉 https://sqlite.org/download.html
+2. **Convert CSVs to tables** Use `.import` command or open files with any SQL editor like DB Browser for SQLite.
 
 ---
 
 ## 🏅 Author & Certifications
 
-**Felipe Castro**  
-Data Analytics Engineer @ EPAM Systems
+**Felipe Castro**
+Senior Data Analytics Engineer @ EPAM Systems
 
 - 🏅 **[DP-700: Microsoft Certified: Fabric Data Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-us/FelipeCastro-8026/96572499DF943EBC?sharingId=13D660F56C1DFFA3)**
 - 🏅 **[DP-600: Microsoft Certified: Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-us/FelipeCastro-8026/6C5A2F5A8A5864FC?sharingId=13D660F56C1DFFA3)**
 - 🏅 **[PL-300: Microsoft Certified: Power BI Data Analyst Associate](https://learn.microsoft.com/api/credentials/share/en-us/FelipeCastro-8026/F853AABE365874B3?sharingId=13D660F56C1DFFA3)**
 
 ---
+
+## 🚀 Tools & Tech
+
+![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-000000?style=flat&logo=Microsoft&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?style=flat&logo=Microsoft%20Azure&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-005C84?style=flat&logo=postgresql&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD8?style=flat&logo=databricks&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![Generative AI](https://img.shields.io/badge/Generative%20AI-412991?style=flat&logo=openai&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
